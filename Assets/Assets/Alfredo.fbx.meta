@@ -1,9 +1,64 @@
 fileFormatVersion: 2
-guid: ad3b04ad9bf04ec498893ec900d8d419
+guid: f471a7be78439134ca2d5639076fdfc4
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder1
+    second: {fileID: 2100000, guid: 6040ee9cb8448924c97fae9e3d7330af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PM3D_Sphere3D1
+    second: {fileID: 2100000, guid: a591faf627189fa41be3a1aa637e10bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PM3D_Sphere3D1_1
+    second: {fileID: 2100000, guid: 1d0d881da5dd7254ba5c3ad6eea33ff5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PM3D_Sphere3D1_2
+    second: {fileID: 2100000, guid: 6755db4b55886bf4ea0cd20a4cdede65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PM3D_Sphere3D2
+    second: {fileID: 2100000, guid: e5f1a37275d9d5e4d84827e37215e67f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PolySphere
+    second: {fileID: 2100000, guid: c110ab820df30b247a2852ca014c5b3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mid_low1
+    second: {fileID: 2100000, guid: 2484f3212ad8dfb479d74f6ed9760678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mid_low2
+    second: {fileID: 2100000, guid: 895010aa2d0750046aef4d81d6a49217, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: untitled
+    second: {fileID: 2100000, guid: ebfd3208cf9547b4f83c94a400f27232, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cylinder1_NM
+    second: {fileID: 2800000, guid: 8881273208163184e8bd3c93c9e3d355, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Cylinder1_TXTR
+    second: {fileID: 2800000, guid: d2b15f95100479f469d700b8710f2423, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

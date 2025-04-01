@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/PracticeScene.unity
     guid: 3b81337f762d2ac4dbce206bbfbf9789
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Interactions.unity
     guid: 54a8824eb731e8f4f93efd2d6cc57eef
   - enabled: 1
