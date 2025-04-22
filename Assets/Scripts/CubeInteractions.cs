@@ -4,34 +4,41 @@ using UnityEngine;
 
 public class CubeInteractions : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    private Renderer polySurfaceRenderer;
+
     void Start()
     {
-        
-    }
+        // Find the child called "polySurface2"
+        Transform polySurface = transform.Find("polySurface2");
+        if (polySurface != null)
+        {
+            polySurfaceRenderer = polySurface.GetComponent<Renderer>();
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (polySurfaceRenderer == null)
+        {
+            Debug.LogWarning("No Renderer found on polySurface2 in " + gameObject.name);
+        }
     }
 
     public void Hover()
     {
-        Debug.Log("Hover");
-    
+        Debug.Log(gameObject.name + " Hovered");
     }
 
     public void Selected()
     {
-        Debug.Log("selected");
-        GetComponent<Renderer>().material.SetColor("_BaseColor", Color.red);
+        Debug.Log(gameObject.name + " Selected");
 
+        if (polySurfaceRenderer != null)
+        {
+            polySurfaceRenderer.material.color = Color.red;
+        }
     }
 
     public void Activated()
     {
-        Debug.Log("Activated");
-
+        Debug.Log(gameObject.name + " Activated");
     }
 }
