@@ -1,2 +1,14 @@
 fileFormatVersion: 2
 guid: 6f1932db91c667d43b2f6ddfcb9ca388
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - doorObject: {instanceID: 0}
+  - roomLight: {instanceID: 0}
+  - doorOpenAudio: {fileID: 8300000, guid: a2a9173e55f199b4ba05cee39355bf88, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

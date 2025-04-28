@@ -22,6 +22,7 @@ public class RainingCube : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
         }
     }
+    
 
     public void StartRain()
     {
