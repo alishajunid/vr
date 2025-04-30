@@ -6,7 +6,7 @@ MonoImporter:
   defaultReferences:
   - doorObject: {instanceID: 0}
   - roomLight: {instanceID: 0}
-  - doorOpenAudio: {fileID: 8300000, guid: a2a9173e55f199b4ba05cee39355bf88, type: 3}
+  - doorOpenAudio: {fileID: 8300000, guid: 50f89aad91814af48b37dd413ff567cb, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

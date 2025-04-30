@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CubeInteractions : MonoBehaviour
+public class RedApple : MonoBehaviour
 {
 
+
     private Renderer polySurfaceRenderer;
+    public Material redMaterial;
 
     void Start()
     {
@@ -31,9 +33,9 @@ public class CubeInteractions : MonoBehaviour
     {
         Debug.Log(gameObject.name + " Selected");
 
-        if (polySurfaceRenderer != null)
+        if (polySurfaceRenderer != null && redMaterial != null)
         {
-            polySurfaceRenderer.material.color = Color.red;
+            polySurfaceRenderer.material = redMaterial;
         }
     }
 

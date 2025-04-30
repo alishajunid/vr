@@ -49,6 +49,7 @@ public class RainingCube : MonoBehaviour
             );
 
             Instantiate(manPrefab, randomPosition, Quaternion.identity);
+          
         }
     }
 }
